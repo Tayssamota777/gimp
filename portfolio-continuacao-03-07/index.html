@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+
+<!-- favicon -->
+ <link rel="shortcut icon" href="" type="image/x-icon">
+
+<!-- link css bootstrap v5.3.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+<!-- link icon bootstrap v1.11 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+<!-- link css customizado -->
+    <link rel="stylesheet" href="css/styles.css">
+
+  </head>
+  <body>
+    <!-- cabeçalho e menu-->
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">KM</a>
+
+              <!-- menu sanduiche - para telas menores -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ms-auto mb-2  mb-lg-0">
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" aria-current="page" href="#habilidades">Habilidades</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="#portfolio">Portfólio</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="#sobre">Sobre</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="#contato">Contato</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+    </header>
+
+    
+
+    <!-- primeira section - HEROES-->
+    <section class="meu-bg d-flex flex-column align-items-center justify-content-center">
+      <!-- Propriedades Bootstrap:
+             - d-flex: Aplica display flex ao elemento, facilitando o alinhamento e justificação do conteúdo
+             - flex-column: Alinha os itens flex em uma coluna
+             - align-items-center: Alinha os itens ao centro do contêiner no eixo transversal
+             - justify-content-center: Justifica os itens ao centro do contêiner no eixo principal -->
+      <div class="container-fluid d-flex flex-column">
+    <!--Apresentação -->
+      <div class="row text-center">
+          <div class="col-12">
+          <h1 class="h1 text-white fw-medium fst-italic">Kauanny Mota</h1>
+         <!-- Propriedades Bootstrap:
+             - h1: classe de heading
+             - text-white: cor branca para o texto
+             - fw-medium: peso da fonte médio
+             - fst-italic: estilo da fonte itálico -->
+      
+          <h2 class="display-3 text-white fw-bold">Desenvolvimento Front-end</h2>
+         <!-- Propriedades Bootstrap:
+             - display-3: tamanho grande para o texto
+             - text-white: cor branca para o texto
+             - fw-bold: peso da fonte negrito -->
+        
+          <a href="#sobre" class="btn btn-primary btn-lg fs-6 fw-medium py-3 px-5 my-5 text-uppercase">sobre mim <i class="bi bi-caret-down"></i></a>
+      </div>
+          <!-- Propriedades Bootstrap:
+             - btn: classe de botão
+             - btn-dark: estilo escuro do botão
+             - fs-6: tamanho da fonte pequena
+             - fw-medium: peso da fonte médio
+             - py-3: padding vertical 3
+             - px-5: padding horizontal 5
+             - mt-5: margin top 5
+             - text-uppercase: texto em maiúsculas -->
+    </div>
+       
+      <!-- Icones -->
+      <div class="row text-center d-flex align-items-center justify-content-center mt-5">
+        <div class="col-auto social-icons">    
+                  <a href="#" class="mx-3 text-white text-decoration-none"><i class="bi bi-github"></i></a>
+        </div>
+
+        <div class="col-auto social-icons">
+                  <a href="#" class="mx-3 text-white text-decoration-none"><i class="bi bi-envelope-fill"></i></a>
+        </div>
+
+        <div class="col-auto social-icons">    
+                  <a href="#" class="mx-3 text-white text-decoration-none"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+
+      </div>
+  </section>
+  
+
+    
+    <!-- segunda section HABILIDADES -->
+    <section class="container py-5" id="habilidades">
+   
+      <div class="row my-5 py-3">
+          <div class="col-12 text-center">
+              <h2>HABILIDADES</h2>
+              <h4 class="text-secondary fst-italic py-2">Melhorando continuamente minhas habilidades e conhecimentos na área.</h4>
+          </div>
+      </div> 
+
+      <div class="container my-5 py-3 align-items-center justify-content-center">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 align-items-center justify-content-center ">
+            <div class="col align-items-center justify-content-center">
+                <div class="card text-center p-4 h-100 d-flex flex-column align-items-center justify-content-center" style="max-width: 18rem">
+                    <i class="bg-dark text-white rounded-circle bi bi-laptop p-3 p-md-4 fs-3 fs-md-2"></i>
+                    <h3 class="h4 mt-4">Front-end</h3>
+                    <p class="fst-italic">Conhecimentos em HTML, CSS, JS, Design responsivo e uso de frameworks modernos.</p>
+                </div>
+            </div>
+            <div class="col justify-content-center">
+                <div class="card text-center p-4 h-100 d-flex flex-column align-items-center justify-content-center" style="max-width: 18rem">
+                    <i class="bg-dark text-white rounded-circle bi bi-filetype-py p-3 p-md-4 fs-3 fs-md-2"></i>
+                    <h3 class="h4 mt-4">Python</h3>
+                    <p class="fst-italic">Programação em Python 3.11, frameworks e bibliotecas Django, Flask e Pandas.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-center p-4 h-100 d-flex flex-column align-items-center justify-content-center" style="max-width: 18rem">
+                    <i class="bg-dark text-white rounded-circle bi bi-file-spreadsheet p-3 p-md-4 fs-3 fs-md-2"></i>
+                    <h3 class="h4 mt-4">Análise de Dados</h3>
+                    <p class="fst-italic">Microsoft: Excel Básico, Avançado e Power BI. Azure: Azure Data Explorer. Google: Looker Studio.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-center p-4 h-100 d-flex flex-column align-items-center justify-content-center" style="max-width: 18rem">
+                    <i class="bg-dark text-white rounded-circle bi bi-clouds-fill p-3 p-md-4 fs-3 fs-md-2"></i>
+                    <h3 class="h4 mt-4">Azure</h3>
+                    <p class="fst-italic">Microsoft.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-center p-4 h-100 d-flex flex-column align-items-center justify-content-center" style="max-width: 18rem">
+                    <i class="bg-dark text-white rounded-circle bi bi-clouds-fill p-3 p-md-4 fs-3 fs-md-2"></i>
+                    <h3 class="h4 mt-4">Google Cloud</h3>
+                    <p class="fst-italic">Goole Cloud.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-center p-4 h-100 d-flex flex-column align-items-center justify-content-center" style="max-width: 18rem">
+                    <i class="bg-dark text-white rounded-circle bi bi-clouds-fill p-3 p-md-4 fs-3 fs-md-2"></i>
+                    <h3 class="h4 mt-4">AWS</h3>
+                    <p class="fst-italic">Amazon.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> 
+
+
+
+    <!-- terceira section PORTFOLIO -->
+
+     <section class="container py-5" id="portfolio">
+      <div class="row mt-5 py-3">
+          <div class="col-12 text-center">
+              <h2>PORTFÓLIO</h2>
+              <h4 class="text-secondary fw-normal py-2 fst-italic">Alguns projetos que participei.</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat officia dolore eaque iusto libero fuga sit, vel, laudantium voluptatem esse qui eum tenetur, expedita quibusdam doloribus nihil nulla vitae. Aliquid.
+                Reiciendis placeat, harum odit eius provident doloremque amet dolor sed necessitatibus quos libero nostrum assumenda, excepturi, deleniti eos laboriosam quasi in fuga! Minima assumenda ducimus iste voluptate vel quod voluptates!</p>
+          </div>
+      </div>
+
+
+  
+      <div class="row mt-3 mx-0 justify-content-center align-items-center">
+          <div class="col-lg-3 col-md-4 col-12 px-2 card-wrapper">
+              <div class="card mt-1">
+                  <img src="img/web-design-3411373_640.jpg" class="card-img-top" alt="portfolio-img">
+                  <div class="card-body text-center">
+                      <h6 class="card-title">E-commerce Website</h6>
+                      <p class="card-text text-secondary">HTML/CSS/JavaScript</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-12 px-2 card-wrapper">
+              <div class="card mt-1">
+                  <img src="img/tecnologia.jpg" class="card-img-top" alt="portfolio-img">
+                  <div class="card-body text-center">
+                      <h6 class="card-title">Landing Page</h6>
+                      <p class="card-text text-secondary">HTML/CSS/Bootstrap</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-12 px-2 card-wrapper">
+              <div class="card mt-1">
+                  <img src="img/calculator-1516869_640.jpg" class="card-img-top" alt="portfolio-img">
+                  <div class="card-body text-center">
+                      <h6 class="card-title">Calculator App</h6>
+                      <p class="card-text text-secondary">Python</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+
+
+   
+
+<!-- quarta section SOBRE -->
+
+<section class="container-fluid py-5" id="sobre">
+  <div class="row mt-3 py-3 text-center">
+      <div class="col">
+          <h2>SOBRE</h2>
+          <h4 class="text-secondary fst-italic py-2"> Quem sou?</h4>
+      </div>
+  </div>
+
+  <div class="container d-flex justify-content-center mt-2">
+      <div class="row">
+          <div class="col-xl-6 text-center p-5">
+              <img class="shadow-sm img-fluid" src="img/teacher-6565166_1280.png" alt="teste">
+            
+          </div>
+          <div class="col-xl-6 p-5 d-flex flex-column justify-content-center">
+              <h2><i class="bi bi-star"> Olá a todos!</i></h2>
+              <p class="mt-3">
+                Sou apaixonada por aprendizado contínuo e adoro desafios que envolvam programação, matemática e novas tecnologias de nuvem. <br><br>
+                Dominar linguagens como HTML, CSS, JavaScript e explorar frameworks modernos me permite desenvolver soluções robustas e eficientes.<br><br>
+                As tecnologias de nuvem abriram novos horizontes, proporcionando flexibilidade e escalabilidade para transformar como trabalhamos e interagimos com os dados. Estar na vanguarda dessas mudanças me motiva a aprender continuamente e compartilhar meu conhecimento com meus alunos.<br><br>
+                Além dessas paixões, a análise de dados tornou-se uma parte central do meu trabalho. Utilizando ferramentas como o Power BI, sou capaz de extrair insights valiosos a partir de conjuntos de dados complexos. O Power BI não apenas simplifica o processo de visualização e interpretação de dados, mas também facilita a tomada de decisões informadas com base em análises precisas e atualizadas. Faça o download do meu Ebook!!!
+              </p>
+                <!-- Botão de Download abaixo da imagem -->
+                <a href="path/to/your/file.pdf" class="btn btn-dark btn-sm fs-6 fw-medium py-3 px-5 my-5 text-uppercase" download>
+                  Baixar Ebook Power BI
+                </a>
+          
+      </div>
+  </div>
+</section>
+
+
+ <!-- quinta section CONTATO-->
+
+ <section class="container py-5" id="contato">
+  <div class="row mt-3 py-3 text-center">
+      <div class="col-12 d-flex flex-column justify-content-center">
+          <h2>CONTATO</h2>
+          <h4 class="text-secondary fst-italic py-2">Interessado se eu seria a pessoa certa para a sua equipe? Preencha o formulário e responderei dentro de 24 horas.</h4>
+      </div>
+  </div>
+
+  <div class="bg-info row pt-4 my-5">
+      <div class="col-12">
+          <form action="">
+              <div class="row d-flex justify-content-center">
+                  <div class="col-lg-6">
+                      <div class="form-floating mb-3">
+                          <input type="text" class="form-control" id="nome" placeholder="Seu nome*" autocomplete="given-name" required>
+                          <label for="nome">Seu nome*</label>
+                      </div>
+
+                      <div class="form-floating mb-3">
+                          <input type="email" class="form-control" id="email" placeholder="Seu e-mail*" autocomplete="email" required>
+                          <label for="email">Seu e-mail*</label>
+                      </div>
+
+                      <div class="form-floating mb-3">
+                          <input type="tel" class="form-control" id="telefone" placeholder="Seu telefone*" required>
+                          <label for="telefone">Seu telefone*</label>
+                      </div> 
+                  </div>
+
+                  <div class="col-lg-6">
+                      <div class="form-floating mb-3">
+                          <textarea class="form-control" placeholder="Escreva sua mensagem" id="msg" style="height: 150px" required></textarea>
+                          <label for="msg">Sua mensagem*</label>
+                      </div>
+
+                      <!-- Botão Enviar na mesma coluna -->
+                      <div class="d-flex justify-content-end">
+                          <button class="btn btn-dark btn-lg fs-6 fw-medium py-2 px-4 text-uppercase" type="submit">Enviar</button>
+                      </div>
+                  </div>
+              </div>
+          </form>
+      </div>
+  </div>
+</section>
+
+
+   <!-- Footer -->
+   <footer class="bg-dark" data-bs-theme="dark">
+    <div class=" container-fluid-xxl flex-wrap pt-3 d-flex align-items-center justify-content-md-between" >
+      <p class="text-white">Copyright &copy; 2024. Kauanny Mota</p>
+      <ul class="footer-social-icons d-flex">
+        <a href="#" class="bg-white mx-2 text-dark d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><i class="bi bi-github"></i></a>
+        <a href="#" class="bg-white mx-2 text-dark d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><i class="bi bi-envelope-fill"></i></a>
+        <a href="#" class="bg-white mx-2 text-dark d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><i class="bi bi-linkedin"></i></a> 
+      </ul>
+    </div>
+
+
+   </footer>
+
+
+
+<!-- link js bootstrap v5.3.3 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<!-- link js customizado -->
+<script src="js/script.js"></script>
+  </body>
+</html>
